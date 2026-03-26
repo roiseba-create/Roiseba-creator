@@ -10,7 +10,7 @@ export default async function react(client, message){
 
         {
             react: {
-                text: 'ðŸŽ¯',
+                text: '💀',
 
                 key: message.key
             }
@@ -24,7 +24,7 @@ export default async function react(client, message){
 
         {
             react: {
-                text: 'âš¡',
+                text: 'roiseba',
 
                 key: message.key
             }
