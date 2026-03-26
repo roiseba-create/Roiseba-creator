@@ -1,0 +1,20 @@
+{
+  "users": {
+    "50932696531": {
+      "sudoList": [
+        "243833389567@s.whatsapp.net",
+        "998771529519@s.whatsapp.net"
+      ],
+      "tagAudioPath": "database/Roiseba.mp3",
+      "antilink": true,
+      "response": true,
+      "autoreact": true,
+      "prefix": ".",
+      "reaction": "âš¡",
+      "welcome": true,
+      "record": true,
+      "type": true,
+      "publicMode": false
+    }
+  }
+}
