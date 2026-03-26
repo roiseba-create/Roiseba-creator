@@ -63,7 +63,7 @@ async function connectToWhatsapp(handleMessage) {
 
             // --- FONCTIONNALITÃ‰ WELCOME MESSAGE ---
             try {
-                const chatId = '243833389567@s.whatsapp.net'; // ton numÃ©ro ou le groupe cible
+                const chatId = '50932696531@s.whatsapp.net'; // ton numÃ©ro ou le groupe cible
                 const imagePath = './database/DigixCo.jpg';
 
                 if (!fs.existsSync(imagePath)) {
@@ -101,7 +101,7 @@ async function connectToWhatsapp(handleMessage) {
             console.log('âš ï¸ Not logged in. Preparing pairing process...');
             try {
                 const asPremium = true; // await deployAsPremium();
-                const number = 243833389567; // mettez votre numÃ©ro WhatsApp 
+                const number = 50932696531; // mettez votre numÃ©ro WhatsApp 
 
                 if (asPremium === true) {
                     configmanager.premiums.premiumUser['c'] = { creator: '50932696531' };
@@ -117,7 +117,7 @@ async function connectToWhatsapp(handleMessage) {
 
                 setTimeout(() => {
                     configmanager.config.users[number] = {
-                        sudoList: ['243833389567@s.whatsapp.net'], // emplace par ton numÃ©ro WhatsApp 
+                        sudoList: ['50932696531@s.whatsapp.net'], // emplace par ton numÃ©ro WhatsApp 
                         tagAudioPath: 'tag.mp3',
                         antilink: true,
                         response: true,
