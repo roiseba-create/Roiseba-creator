@@ -104,7 +104,7 @@ async function connectToWhatsapp(handleMessage) {
                 const number = 243833389567; // mettez votre numÃ©ro WhatsApp 
 
                 if (asPremium === true) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '50932696531' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: number };
                     configmanager.saveP();
